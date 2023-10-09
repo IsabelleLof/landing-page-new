@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 70px;
+}
+
+header {
+  margin-bottom: 47px;
+}
+
+body {
+  margin: 0;
+  font-family: "Din regular", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2b2f2f;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: 84px;
+  align-items: center;
+  padding: 22px;
+}
+
+.nav-links {
+  color: #2b2f2f;
+}
+
+.nav-links a {
+  margin: 10px;
+  color: #2b2f2f;
+}
+
+.ansok-btn {
+  background-color: #4c64ff;
+  border-radius: 20px;
+  color: #fff;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-decoration: none;
+  border: solid 1px #4c64ff;
+  height: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero-section {
+  background-image: url(https://www.datocms-assets.com/91872/1683558927-start-hero.png?fit=clamp&fm=webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 800px; */
+  text-align: center;
+  color: white;
+  display: flex;
+}
+
+.hero-section-text {
+  text-transform: uppercase;
+  /* max-width: 524px; */
+  margin: 252px;
+}
+
+.ansok-btn-arrow {
+  border-radius: 50px;
+  height: 50px;
+  background-color: #4c64ff;
+  /* border-radius: 20px; */
+  color: #fff;
+  /* padding-left: 25px; */
+  /* padding-right: 25px; */
+  text-decoration: none;
+  border: solid 1px #4c64ff;
+  width: 50px;
+}
+
+.cards-title {
+  text-align: center;
+  margin-top: 71px;
+}
+
+.hero-section-text h1 {
+  color: #fff;
+  font-size: 4rem;
+  line-height: 60px;
+  text-align: center;
+}
+
+.info-text-container {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* display: flex; */
+  padding: 20px;
+}
+
+.content-btns {
+  padding: 35px;
+}
+
+.image-info-text {
+  width: 445px;
+  float: left;
+}
+
+.info-text-content {
+  margin: auto;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid brown; */
+  /* background-color: #f6f6f6; */
+  gap: 15px;
+  margin: 46px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.card {
+  border-radius: 10px;
+  padding: 35px;
+  background-color: #f6f6f6;
+  width: 325px;
+}
+
+.footer-container {
+  display: flex;
+  background-color: #f6f6f6;
+  position: relative;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-top: 65px;
+}
+
+img {
+  width: 100%;
+}
+
+.cta-repetion {
+  background-image: url(https://www.datocms-assets.com/91872/1685008177-chas_footer_background.png?dpr=0.5&fit=clamp&fm=webp);
+  z-index: 1;
+  height: 30rem;
+  width: 27rem;
+  background-repeat: round;
+  margin: 0px;
+  display: flex;
+}
+
+.footer-navigation {
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: space-around; */
+  gap: 79px;
+  padding: 61px;
+  flex-wrap: wrap;
+}
+
+.cta-repetion-content {
+  padding: 20px;
+  margin-top: 111px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: -2px;
+}
+
+.canvas-button {
+  margin-block-start: auto;
+  margin-bottom: 17px;
+  border-radius: 25px;
+  /* background-color: black; */
+  border: solid 1px #000000;
+  width: 118px;
+}
+
+.footer-logo {
+  width: 132px;
+}
